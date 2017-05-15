@@ -1,0 +1,79 @@
+a{
+	text-decoration: none;
+	color:  #3b443d;
+}
+input#gtbox{
+	border:solid;
+	border-width:9px;
+	border-radius:20px;
+	width:900px;
+	height:60px;
+	padding:9px;
+	font-family: "Muli";
+	font-size:26px;
+	font-weight:bold;
+}
+input#gbutton{
+	border:solid;
+	border-width:9px;
+	border-radius:20px;
+	height: 96px;
+	width:110px;
+}
+body{
+	background: linear-gradient(to right, rgb(86, 204, 242), rgb(47, 128, 237));;
+	font-family:"Lato";
+	font-weight:bolder;
+}
+td{
+	border:solid;
+	border-width: 10px;
+	border-radius: 40px;
+	padding:9px;
+	font-size:16px;
+	
+}
+textarea{
+	border:solid;
+	border-width:4px;
+	border-radius:20px;
+	padding:9px;
+	background-color: #1ABC9C;
+	font-weight:bold;
+}
+
+#notepad::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color:    #212F3C;
+}
+#notepad:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color:    #212F3C;
+		opacity:  1;
+}
+#notepad::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color:    #212F3C;
+		opacity:  1;
+}
+#notepad:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color:    #212F3C;
+}
+#notepad::-ms-input-placeholder { /* Microsoft Edge */
+		color:    #212F3C;
+}
+
+textarea:focus{
+	outline-width:0; 
+}
+input:focus{
+	outline-width:0; 
+}
+hr{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+td#gquery{
+	border:none;
+}
+td#gsubmit{
+	border:none;
+}

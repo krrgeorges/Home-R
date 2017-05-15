@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Home-R",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [ "content-script.js" ]
+    }
+  ],
+  "web_accessible_resources": [
+	"./home.html",
+	"./favicon.ico",
+	"./home-r.js"
+  ],
+  "browser_action": { "default_icon": "iconyico.png" },
+  "description": "A page that can replace the New Tab consisting of a notepad, three Calvin and Hobbes stripes, an XKCD comic,5 Reader's Digest jokes and the latest Hacker News."
+
+}
